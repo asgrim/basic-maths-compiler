@@ -1,0 +1,20 @@
+{
+    "name": "asgrim/basic-maths-compiler",
+    "description": "Basic maths compiler for my AST talk",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Titcumb",
+            "email": "james@asgrim.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BasicMaths\\": "src/"
+        }
+    }
+}
