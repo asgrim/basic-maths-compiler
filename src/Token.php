@@ -50,4 +50,14 @@ final class Token
     {
         return $this->lexeme;
     }
+
+    public function isOperator() : bool
+    {
+        return in_array($this->token, [
+            self::T_ADD,
+            self::T_SUBTRACT,
+            self::T_MULTIPLY,
+            self::T_DIVIDE,
+        ], true);
+    }
 }
