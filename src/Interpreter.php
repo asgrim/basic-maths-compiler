@@ -5,7 +5,7 @@ namespace BasicMaths;
 
 use BasicMaths\Node\NodeInterface;
 
-final class Compiler
+final class Interpreter
 {
     public function __invoke(NodeInterface $node)
     {

@@ -1,4 +1,4 @@
-# Basic Maths Compiler
+# Basic Maths Interpreter
 
 A very basic lexer/parser/compiler combination that evaluates very simple mathematical expressions.
 
